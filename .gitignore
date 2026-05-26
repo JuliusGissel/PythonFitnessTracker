@@ -1,0 +1,19 @@
+# Miljøvariabler — må IKKE på GitHub
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data (valgfrit — fjern linjen hvis du vil have data med)
+data/traening.json
+
+# Docker
+.dockerignore
+
+# macOS
+.DS_Store
